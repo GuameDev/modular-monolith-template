@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+	<PropertyGroup>
+	  <UserSecretsId>9486cbf7-6956-4515-93e2-92b36b9eef45</UserSecretsId>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="9.0.7" />
+		<PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="9.0.7" />
+		<PackageReference Include="Swashbuckle.AspNetCore" Version="9.0.3" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <ProjectReference Include="..\..\ModularMonolith.Template.Application\ModularMonolith.Template.Application.csproj" />
+	  <ProjectReference Include="..\..\ModularMonolith.Template.SharedKernel\ModularMonolith.Template.SharedKernel.csproj" />
+	</ItemGroup>
+
+</Project>

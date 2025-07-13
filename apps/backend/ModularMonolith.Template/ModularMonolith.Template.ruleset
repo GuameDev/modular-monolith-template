@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RuleSet Name="ModularMonolith Rules" Description="Code analysis rules for ModularMonolith template." ToolsVersion="16.0">
+  <Rules AnalyzerId="Microsoft.CodeAnalysis.CSharp" RuleNamespace="Microsoft.CodeAnalysis.CSharp">
+    
+    <!-- Style rules -->
+    <Rule Id="CS1591" Action="None" /> <!-- Missing XML comments -->
+    <Rule Id="CS0168" Action="Warning" /> <!-- Variable declared but never used -->
+    <Rule Id="CS0219" Action="Warning" /> <!-- Variable assigned but never used -->
+
+    <!-- Treat warnings as errors for common problems -->
+    <Rule Id="CS8600" Action="Error" /> <!-- Possible null -->
+    <Rule Id="CS8618" Action="Error" /> <!-- Non-nullable field is uninitialized -->
+
+  </Rules>
+</RuleSet>
