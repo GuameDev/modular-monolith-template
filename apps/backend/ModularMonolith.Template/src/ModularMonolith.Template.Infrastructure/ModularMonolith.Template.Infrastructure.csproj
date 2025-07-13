@@ -7,9 +7,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\ModularMonolith.Template.Application\ModularMonolith.Template.Application.csproj" />
     <ProjectReference Include="..\ModularMonolith.Template.SharedKernel\ModularMonolith.Template.SharedKernel.csproj" />
-    <ProjectReference Include="..\src\ModularMonolith.Template.Domain\ModularMonolith.Template.Domain.csproj" />
   </ItemGroup>
 
 </Project>

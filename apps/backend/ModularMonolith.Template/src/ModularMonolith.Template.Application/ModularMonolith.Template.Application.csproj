@@ -11,8 +11,10 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\ModularMonolith.Template.Domain\ModularMonolith.Template.Domain.csproj" />
     <ProjectReference Include="..\ModularMonolith.Template.SharedKernel\ModularMonolith.Template.SharedKernel.csproj" />
-    <ProjectReference Include="..\src\ModularMonolith.Template.Domain\ModularMonolith.Template.Domain.csproj" />
   </ItemGroup>
+
+
 
 </Project>
