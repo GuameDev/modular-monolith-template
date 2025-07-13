@@ -1,4 +1,5 @@
 ﻿using ModularMonolith.Template.SharedKernel.Results.Errors;
+using System.ComponentModel.DataAnnotations;
 
 namespace ModularMonolith.Template.SharedKernel.Results.ValidationResults
 {
